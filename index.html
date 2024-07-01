@@ -14,20 +14,22 @@
     <link rel="stylesheet" href="Assets/js/scripts.js">
 </head>
 <body>
-    <!-- Navbar -->
+<!-- Header -->
+    <header>
+<!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="">Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Quienes Somos</a>
+                    <a class="nav-link active" href="#">Quiénes Somos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Destacados</a>
@@ -39,8 +41,32 @@
             </div>
         </div>
     </nav>
-    <!-- Imágen llamas -->
-    <!-- Quienes somos -->
+    <!-- Carrusel -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/" class="d-block w-100" alt="...">
+            </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+    </header>
+
+
+    <!-- Quiénes somos -->
     <!-- Destacados -->
     <!-- Formulario Contacto -->
 <!-- Footer -->
