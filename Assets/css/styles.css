@@ -1,3 +1,45 @@
-.navbar-default {
-    background-image:;
+.body {
+    margin-left:30%;
+    margin-right:30%;
+    background-color: black;
+    
+}
+.header {
+    background-color: black;
+    color: white;
+}
+.navbar {
+    color: white;
+    text-align: zz;
+}
+
+.carousel {
+    background-color: black;
+}
+.Quien {
+    background-color: black;
+    color: white;
+}
+.icon {
+    background-color:rgb(81, 209, 246);
+    text-align: center;
+}
+.Destacados {
+    background-color: black;
+    color: white;
+}
+.card-body {
+    background-color:rgb(81, 209, 246);
+    color: white;
+}
+.Contacto {
+    background-color: black;
+    color: white;
+}
+.footer {
+    background-color:rgb(81, 209, 246);
+    color: white;
+}
+.img {
+    object-fit: cover;
 }
