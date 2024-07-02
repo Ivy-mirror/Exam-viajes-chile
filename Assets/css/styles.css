@@ -22,7 +22,7 @@
 }
 .icon {
     background-color:rgb(81, 209, 246);
-    text-align: center;
+    text-align: center;    
 }
 .Destacados {
     background-color: black;
@@ -42,4 +42,20 @@
 }
 .img {
     object-fit: cover;
+}
+.bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bona-nova-sc-bold {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
 }
